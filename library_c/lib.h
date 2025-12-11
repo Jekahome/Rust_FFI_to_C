@@ -62,15 +62,5 @@ uint32_t add(uint32_t x, uint32_t y);
 void increase_counter(float i) { g_counter += i; }
 
 float get_counter() { return g_counter; }
-
-/*
-
-Работа с malloc/free (ручная память из C).
-
-Как Rust отдавать буферы в C.
-
-Как C отдаёт строки Rust’у без утечек.
-
-Обмен памятью и взаимное изменение данных
-*/
+ 
 #endif  
