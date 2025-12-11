@@ -1,0 +1,16 @@
+# Cargo.toml
+[workspace]
+resolver = "2"
+
+members = [
+    "lib_ffi",
+    "app_std",
+    "app_no_std",
+    "app2_no_std",
+]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

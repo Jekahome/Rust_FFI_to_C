@@ -1,0 +1,12 @@
+# FIle: app_no_std/Cargo.toml
+[package]
+name = "app_no_std"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lib_ffi = { path = "../lib_ffi", default-features = false }
+ 
+
+[features]
+default = []

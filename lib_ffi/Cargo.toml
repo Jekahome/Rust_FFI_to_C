@@ -1,0 +1,19 @@
+# File: lib_ffi/Cargo.toml
+[package]
+name = "lib_ffi"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
+
+[lib]
+crate-type = ["rlib"]
+ 
+ 
+[build-dependencies]
+cc = "1.0"
+bindgen = "0.72"

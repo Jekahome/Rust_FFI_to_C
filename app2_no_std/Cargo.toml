@@ -1,0 +1,13 @@
+# File: app2_no_std/Cargo.toml
+[package]
+name = "app2_no_std"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lib_ffi = { path = "../lib_ffi", default-features = false }
+linked_list_allocator = "0.10.5"  # самая стабильная версия для no_std
+
+[features]
+default = []
+
