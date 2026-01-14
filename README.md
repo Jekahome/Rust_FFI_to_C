@@ -390,7 +390,7 @@ crate bindgen инструмент, который автоматически г
 * Rust FFI Omnibus
   [jakegoulding.com/rust-ffi-omnibus](https://jakegoulding.com/rust-ffi-omnibus/)
 
-
+* [Rust FFI (Why Some Projects Use Multiple Programming Languages)](https://youtu.be/XJC5WB2Bwrc?si=xNsSubwz8Frlx9vm&t=783)
  
 [CMake_CPP_to_RUST_examples](https://github.com/Jekahome/CMake_CPP_to_RUST_examples)
 
