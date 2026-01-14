@@ -37,6 +37,7 @@
 * `bindgen` для генерации Rust-обёрток над C API
 * `cc` crate для сборки C-кода вместе с Rust
 
+![Rust to C](https://github.com/Jekahome/Rust_FFI_to_C/blob/master/FFI.png)
 
 ---
 
